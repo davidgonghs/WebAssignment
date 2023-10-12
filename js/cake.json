@@ -1,0 +1,44 @@
+{
+  "Cake":[
+    {"id":"1","name":"Baby Shark Cake","url": "../img/cake/01.webp","price": "from RM 130.00"},
+    {"id":"2","name":"Butterscotch Cookies Cake","url": "../img/cake/02.webp","price": "from RM 110.00"},
+    {"id":"3","name":"Chocolate Mud 5 inch","url": "../img/cake/03.webp","price": "RM 52.00"},
+    {"id":"4","name":"Princess","url": "../img/cake/04.webp","price": "from RM 175.00"},
+    {"id":"5","name":"Coral Mermaid 5 inch","url": "../img/cake/05.webp","price": "from RM 190.00"},
+    {"id":"6","name":"Death By Chocolate","url": "../img/cake/06.webp","price": "from RM 110.00"},
+    {"id":"7","name":"Oh Lucy! 6 inch","url": "../img/cake/07.webp","price": "RM 99.00"},
+    {"id":"8","name":"Joey Cake 4 inch","url": "../img/cake/08.webp","price": "RM 180.00"},
+    {"id":"9","name":"The Mafia","url": "../img/cake/09.webp","price": "from RM 108.00"},
+    {"id":"10","name":"Nutella Crunch","url": "../img/cake/10.jpg","price": "from RM 95.00"},
+    {"id":"11","name":"Mixed Berry Cheese Cake 8 inch","url": "../img/cake/11.jpg","price": "RM 107.00"},
+    {"id":"12","name":"Pandan Kaya Mille Crepe 8 inch","url": "../img/cake/12.jpg","price": "RM 135.00"}
+  ],
+  "Cupcake": [
+    {"id":"21","name":"Malteser Chocolate Cupcakes","url": "../img/cupcake/1.jpg","price": "from RM 86.00"},
+    {"id":"22","name":"Peppermint Crunch Chocolate Cupcakes","url": "../img/cupcake/2.jpg","price": "from RM 95.00"},
+    {"id":"23","name":"KitKat Cupcakes","url": "../img/cupcake/3.jpg","price": "from RM 95.00"},
+    {"id":"24","name":"Pandan Gula Melaka Cupcakes","url": "../img/cupcake/4.jpg","price": "from RM 99.00"},
+    {"id":"25","name":"Gula Melaka Cupcakes 12 pieces","url": "../img/cupcake/5.jpg","price": "RM 100.50"},
+    {"id":"26","name":"Blackout Cupcakes 12 pieces","url": "../img/cupcake/6.jpg","price": "RM 95.40"},
+    {"id":"27","name":"Carrot Pecan Cupcakes 12 pieces","url": "../img/cupcake/7.jpg","price": "RM 95.40"},
+    {"id":"28","name":"Salted Peanut Butter Cupcakes 12 pieces","url": "../img/cupcake/8.jpg","price": "RM 108.20"},
+    {"id":"29","name":"Lemoncurd Cupcakes 12 pieces","url": "../img/cupcake/9.jpg","price": "RM 113.20"},
+    {"id":"30","name":"Butterscotch Banana Cupcakes 12 pieces","url": "../img/cupcake/10.jpg","price": "RM 113.20"},
+    {"id":"31","name":"Red Velvet Cupcakes 12 pieces","url": "../img/cupcake/11.jpg","price": "RM 95.40"},
+    {"id":"32","name":"Floral Monogram Cupcakes","url": "../img/cupcake/12.jpg","price": "RM 195.00"}
+  ],
+  "Tea": [
+    {"id":"41","name":"Friends Central Perk Black Tea (20 ct)","url": "../img/tea/1.jpg","price": "RM 42.60"},
+    {"id":"42","name":"Wellness Blend Tea (20 ct)","url": "../img/tea/2.jpg","price": "RM 37.86"},
+    {"id":"43","name":"Winter Dream Tea","url": "../img/tea/3.jpg","price": "RM 42.81"},
+    {"id":"44","name":"Tropical Passion Black Tea","url": "../img/tea/4.jpg","price": "RM 38.68"},
+    {"id":"45","name":"Jasmine Dragon Phoenix Pearl Tea","url": "../img/tea/5.jpg","price": "RM 86.60"},
+    {"id":"46","name":"African Sunrise Herbal Tea","url": "../img/tea/6.jpg","price": "RM 38.68"},
+    {"id":"47","name":"Apricot Ceylon Tea","url": "../img/tea/7.jpg","price": "RM 38.68"},
+    {"id":"48","name":"English Breakfast Black Tea","url": "../img/tea/8.jpg","price": "RM 38.68"},
+    {"id":"49","name":"Scottish Breakfast Black Tea","url": "../img/tea/9.jpg","price": "RM 38.68"},
+    {"id":"50","name":"Earl Grey Black Tea","url": "../img/tea/10.jpg","price": "RM 42.60"},
+    {"id":"51","name":"Genmaicha Green Tea","url": "../img/tea/11.jpg","price": "RM 46.47"},
+    {"id":"52","name":"Orchard Peach Iced Tea","url": "../img/tea/12.jpg","price": "RM 42.98"}
+  ]
+}

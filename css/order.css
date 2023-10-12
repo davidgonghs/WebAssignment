@@ -1,0 +1,105 @@
+
+#order{
+  margin:0 auto;
+  padding:0;
+  clear:both;
+}
+
+#picture{
+  margin-left: 15%;
+  float: contour;
+  width: auto;
+  height: auto;
+}
+
+#images {
+  width: 644px;
+  height: 644px;
+  overflow: hidden;
+  position: relative;
+}
+
+#images img {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-radius: 25px;
+  top: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+#images img:first-child {
+  left: 0;
+}
+
+#slider a {
+  text-decoration: none;
+  padding: 0;
+  margin:0;
+}
+
+#slider a img {
+  width: 3%;
+  height: 3%;
+  border:2px solid #888888;
+  border-radius: 10px;
+}
+
+#inform{
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  margin-right: 15%;
+}
+
+input[type=text], select{
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+input[type=text], focus{
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+input[type=date], focus{
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+textarea{
+  height: 30px;
+  margin: 8px;
+  padding: 12px;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+#inform table td{
+  height: 35px;
+  font-size: 20px;
+  padding:15px;
+}
+
+#inform table td input,select{
+  height: 70%;
+  width: 100%;
+}

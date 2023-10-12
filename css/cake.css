@@ -1,0 +1,9 @@
+
+#cake{
+  overflow:auto;
+  border: none;
+  padding: 10px;
+  width:900px;
+  margin-left:auto;
+  margin-right:auto;
+}

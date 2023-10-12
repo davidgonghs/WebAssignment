@@ -1,0 +1,35 @@
+input[type=text], select{
+	padding: 12px;
+	margin: 8px;
+	border: 1px solid red;
+  border-radius: 10px;
+}
+
+input[type=text], focus{
+  border: 3px solid black;
+}
+
+#div1{
+  padding:0;
+}
+
+h1{
+  text-align: center;
+}
+
+#form{
+  background-color: #FFFFFF;
+  margin:0px auto;
+  border-radius: 25px;
+  text-align: left;
+}
+
+#remind1{
+  border: 1px solid black;
+  margin:0px auto;
+}
+
+#remind2{
+  text-align: center;
+}
+

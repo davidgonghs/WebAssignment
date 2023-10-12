@@ -1,0 +1,14 @@
+#middle{
+  overflow:auto;
+  margin:0;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#middle img{
+  border: none;
+  width: 70%;
+  height: 40%;
+  object-fit:cover;
+}

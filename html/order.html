@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ORDER</title>
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+  <div id="order" >
+    <div id="picture" class="subdiv_allinline">
+      <div id="images">
+        <img id="image1" src="../img/cake/01.webp" />
+        <img id="image2" src="../img/cake/02.webp" />
+        <img id="image3" src="../img/cake/03.webp" />
+        <img id="image4" src="../img/cake/04.webp" />
+        <img id="image5" src="../img/cake/05.webp" />
+        <img id="image6" src="../img/cake/06.webp" />
+        <img id="image7" src="../img/cake/07.webp" />
+        <img id="image8" src="../img/cake/08.webp" />
+        <img id="image9" src="../img/cake/09.webp" />
+      </div>
+      <div id="slider">
+        <a href="#image1"><img src="../img/cake/01.webp" /></a>
+        <a href="#image2"><img src="../img/cake/02.webp" /></a>
+        <a href="#image3"><img src="../img/cake/03.webp" /></a>
+        <a href="#image4"><img src="../img/cake/04.webp" /></a>
+        <a href="#image5"><img src="../img/cake/05.webp" /></a>
+        <a href="#image6"><img src="../img/cake/06.webp" /></a>
+        <a href="#image7"><img src="../img/cake/07.webp" /></a>
+        <a href="#image8"><img src="../img/cake/08.webp" /></a>
+        <a href="#image9"><img src="../img/cake/09.webp" /></a>
+      </div>
+    </div>
+    <div id="inform" class="subdiv_allinline">
+      <table>
+        <tr>
+          <td>PHONE NUMBER</td>
+          <td><input type="text" ></td>
+        </tr>
+        <tr>
+          <td>EMAIL ADDRESS</td>
+          <td><input type="text" ></td>
+        </tr>
+        <tr>
+          <td>DATE</td>
+          <td>
+            <input type="date" name="user_date" />
+          </td>
+        </tr>
+        <tr>
+          <td>DELIVERY TIME</td>
+          <td>
+            <select name="deliveryTime" id="deliveryTime">
+              <option value="11">11am - 1pm</option>
+              <option value="1">1pm - 3pm</option>
+              <option value="3">3pm - 5pm</option>
+              <option value="5">5pm - 7pm</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>QUANTITY</td>
+          <td>
+            <select name="quantity" id="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>SIZE</td>
+          <td>
+            <select name="size" id="size">
+              <option value="5 inch">5 inch</option>
+              <option value="7 inch">7 inch</option>
+              <option value="9 inch">9 inch</option>
+              <option value="12 inch">12 inch</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>MESSAGE ON CAKE</td>
+          <td><textarea></textarea></td>
+        </tr>
+        <tr>
+          <td>ADDRESS</td>
+          <td><textarea></textarea></td>
+        </tr>
+      </table>
+      <br>
+      <button>
+        <input type="submit" name="submit" value="SUBMIT">
+      </button>
+    </div>
+  </div>
+</body>
+</html>

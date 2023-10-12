@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../css/middle.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $.getJSON ("../js/cake.json", function (data) {
+          for(var i in data){
+            var last = JSON.stringify(data[i]);
+            for(var a in  data[i]){
+              var jsonObj = data[i][a];
+              var responsiveDiv = document.createElement("div");
+              responsiveDiv.setAttribute("class","responsive");
+              responsiveDiv.style.padding="0 6px";
+              responsiveDiv.style.float="left";
+              document.getElementById('cake').appendChild(responsiveDiv);
+              var imgDiv = document.createElement("div");
+              imgDiv.setAttribute("class","img");
+              imgDiv.setAttribute("id",jsonObj.id);
+              imgDiv.style.border="1px solid #ccc";
+              imgDiv.style.width="256px";
+              imgDiv.style.margin="5px";
+              imgDiv.style.padding="0";
+              responsiveDiv.appendChild(imgDiv);
+              var aImg = document.createElement("a");
+              aImg.setAttribute("target","_blank");
+              aImg.setAttribute("href",jsonObj.url);
+              aImg.setAttribute("onmouseover","mouseOver("+jsonObj.id+")")
+              aImg.setAttribute("onmouseout","mouseOut("+jsonObj.id+")")
+              imgDiv.appendChild(aImg);
+              var cakeImg = document.createElement("img");
+              cakeImg.setAttribute("src",jsonObj.url);
+              cakeImg.setAttribute("alt",jsonObj.name);
+              cakeImg.setAttribute("width","256px");
+              cakeImg.setAttribute("height","256px");
+              aImg.appendChild(cakeImg);
+              var descDiv = document.createElement("div");
+              descDiv.setAttribute("class","desc");
+              descDiv.style.padding="15px";
+              descDiv.style.height="123px";
+              descDiv.style.textAlign="center";
+              imgDiv.appendChild(descDiv);
+              var p1 = document.createElement("p");
+              p1.setAttribute("class","cakeName");
+              p1.style.fontFamily="Karla,sans-serif";
+              p1.appendChild(document.createTextNode(jsonObj.name));
+              descDiv.appendChild(p1);
+              var p2 = document.createElement("p");
+              p2.setAttribute("class","cakePrice");
+              p2.style.fontFamily="Karla,sans-serif";
+              p2.style.color="#275b4c";
+              p2.appendChild(document.createTextNode(jsonObj.price));
+              descDiv.appendChild(p2);
+            }
+          }
+        });
+      });
+      function  mouseOver(id) {
+        document.getElementById(id).style.border="1px solid #777";
+      }
+      function mouseOut(id) {
+        document.getElementById(id).style.border="1px solid #ccc";
+      }
+    </script>
+  <link rel="stylesheet" href="../css/cake.css">
+</head>
+<body>
+<div id="middle">
+    <img src="../img/cake02.jpg">
+</div>
+<br>
+<div id="cake"></div>
+</body>
+</html>
